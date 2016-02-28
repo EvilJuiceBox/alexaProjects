@@ -1,0 +1,10 @@
+AnswerIntent {Cafe} {Station}
+AnswerIntent I would like to know what {Station} is serving at {Cafe}
+AnswerIntent {Station} at {Cafe}
+AnswerIntent What is at {Cafe} {Station}
+AnswerIntent What is {Cafe} serving at {Station}
+
+AMAZON.StartOverIntent Cafe Menu
+AMAZON.StartOverIntent Menu
+AMAZON.StartOverIntent Cafe
+AMAZON.StartOverIntent CafeMenu

@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "intent": "AnswerIntent",
+      "slots": [
+        {
+          "name": "Cafe", 
+          "type": "LIST_OF_ANSWERS"
+        }, 
+        {
+          "name": "Station",
+          "type": "STATION_NAME"
+        }
+      ]
+    },
+        {
+      "intent": "AnswerOnlyIntent",
+      "slots": [
+        {
+          "name": "Cafe",
+          "type": "LIST_OF_ANSWERS"
+        },
+        {
+          "name": "Station",
+          "type": "STATION_NAME"
+        }
+      ]
+    },   {
+      "intent": "StationOnlyIntent",
+      "slots": [
+        {
+          "name": "Station",
+          "type": "STATION_NAME"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.StartOverIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
